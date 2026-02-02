@@ -35,16 +35,12 @@ const About: React.FC = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center mb-24">
           <div className="relative">
             <div className="absolute -top-10 -left-10 w-32 h-32 bg-amaral-yellow/10 rounded-full -z-10"></div>
-            <img
-              src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?q=80&w=800&auto=format&fit=crop"
-              alt="Operação Amaral Locações"
-              className="rounded-lg shadow-2xl border-b-8 border-amaral-yellow"
-            />
-            <div className="absolute -bottom-6 -right-6 bg-slate-900 text-white p-6 rounded-lg shadow-xl hidden md:block">
-              <p className="text-3xl font-black text-amaral-yellow mb-1">19+</p>
-              <p className="text-xs font-bold uppercase tracking-widest">
-                Anos de Expertise
-              </p>
+            <div className="rounded-lg shadow-2xl border-b-8 border-amaral-yellow overflow-hidden">
+              <img
+                src="/seguranca.png"
+                alt="Operação Amaral Locações"
+                className="w-full h-auto object-cover transform scale-125"
+              />
             </div>
           </div>
 

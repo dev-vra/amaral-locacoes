@@ -57,9 +57,7 @@ const Hero: React.FC<HeroProps> = ({ whatsappLink }) => {
           {/* Experience Badge */}
           <div className="mt-12 flex items-center gap-6">
             <div className="flex flex-col">
-              <span className="text-4xl font-black text-amaral-yellow">
-                19+
-              </span>
+              <span className="text-4xl font-black text-amaral-yellow">19</span>
               <span className="text-xs text-gray-400 uppercase tracking-tighter font-bold">
                 Anos de Experiência
               </span>
